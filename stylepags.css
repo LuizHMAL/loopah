@@ -1,0 +1,180 @@
+body{
+    background: linear-gradient(45deg, #ffffff, #a7d69b93);
+    
+}
+
+main.inicial{
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.informacoes{
+    width: 30% !important;
+}
+.nav-extended{
+    background-color: #7cf0bd;
+    background-color: #7cf0bd;
+}
+.fundo{
+    background-color: #7cf0bd;
+
+}
+.page-footer{
+    background-color: #7cf0bd;
+}
+.insta{
+    margin-left: 100%;
+    transform: translateY(-25px);
+    transform: translateX(-60px);
+}
+
+#tamanho{
+    margin-top: 30px;
+    width: 660px;
+    height: 516px;
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+        
+}
+#tamanhoA{
+    margin-top: 100px;
+    width: 660px;
+    height: 390px;
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+        
+}
+.info{
+    margin-top: 30px !important; 
+    width: 22%;
+    height: 11%;
+    margin-left: 5%;
+
+    border: 1px solid #7cf0bd;
+    border-radius: 10px;
+    display: inline-block;
+    overflow-y: scroll;
+}
+.historia{
+    border: 1px solid #7cf0bd;
+    border-radius: 10px;
+    width: 75.5%;
+    height: 35%;
+    margin-bottom: 4%;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: justify;
+    
+}
+.centervideo{
+    margin-left: 17%;
+}
+.icones{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+table.tipo{
+    border: 1px solid #7cf0bd;
+    border-radius: 10px;
+    width: 100%;
+    border-bottom: #7cf0bd;
+    
+
+
+}
+
+.butaum{
+margin-top: 20%;
+margin-left: 28%;
+margin-bottom: 3%;
+}
+.info::-webkit-scrollbar,
+body::-webkit-scrollbar{
+    width: 6px;              
+  }
+  
+ .info::-webkit-scrollbar-track,
+ body::-webkit-scrollbar-track {
+    background: #f8f8f8;       
+  }
+  
+ .info::-webkit-scrollbar-thumb,
+ body::-webkit-scrollbar-thumb {
+    background-color: #7cf0bd;    
+    border-radius: 20px;       
+    border: 1px solid #7cf0bd;
+ }
+  .material-icons:hover{
+    animation: material-icons 3s ease-in-out infinite;
+}
+.icones:hover{
+    animation: icons
+    1s ease-in-out infinite;
+}
+
+.brand-logo:hover{
+    animation: logo
+    1s ease-in-out infinite;
+}
+
+@keyframes material-icons{
+        0%{
+            transform: translateX(0px);
+        }
+        20%{
+            transform: translateX(300px);
+         
+        }
+       65%{
+            transform: translateX(0px);
+            transform: rotate(180deg);
+        }
+        
+        100%{
+            transform: translateX(0px);
+            transform: rotate(-360deg);
+        }
+}
+
+
+@keyframes icons {
+        0%{
+            transform: translateX(0px);
+        }
+        25%{
+            transform: translateY(2px);
+         
+        }
+       75%{
+            transform: translateY(-2px);
+           
+        }
+        
+        100%{
+            transform: translateX(0px);
+           
+        }}
+        @keyframes logo {
+            0%{
+                transform: translateX(0px);
+            }
+            25%{
+                transform: translateY(2px);
+             
+            }
+           75%{
+                transform: translateY(-2px);
+               
+            }
+            
+            100%{
+                transform: translateX(0px);
+               
+            }
+}
+
